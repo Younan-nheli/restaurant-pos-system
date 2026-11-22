@@ -1,0 +1,24 @@
+{
+  "name": "restaurant-pos-waiter-android",
+  "version": "0.2.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "test": "node --experimental-sqlite --test"
+  },
+  "engines": {
+    "node": ">=22.5"
+  },
+  "dependencies": {
+    "expo": "~54.0.0",
+    "expo-crypto": "~15.0.0",
+    "expo-secure-store": "~15.0.0",
+    "expo-sqlite": "~16.0.0",
+    "expo-status-bar": "~3.0.0",
+    "react": "19.1.0",
+    "react-native": "0.81.4"
+  },
+  "type": "module"
+}
